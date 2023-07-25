@@ -5,7 +5,12 @@ const BlogBox = () => {
   return (
     <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
       <div className="col-auto d-none d-lg-block">
-        <Image src="https://fakeimg.pl/160/" width={160} height={160} />
+        <Image
+          src="https://fakeimg.pl/160/"
+          width={160}
+          height={160}
+          alt="fake-image"
+        />
       </div>
       <div className="col p-4 d-flex flex-column position-static">
         <h3 className="mb-0">Featured post</h3>
